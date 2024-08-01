@@ -4,6 +4,11 @@
 #         without any warranty.
 #         Copyright 2012— Gregory Pakosz (@gpakosz).
 
+# -- my customizations ---------------------------------------------------------                                                                                                                    
+# -- shell ---------------------------------------------------------------------
+ # Set the default shell to zsh                                                                                                                                                                      
+ set -g default-shell /bin/zsh
+
 
 # -- bindings ------------------------------------------------------------------
 
