@@ -5,6 +5,10 @@
 #         Copyright 2012— Gregory Pakosz (@gpakosz).
 
 # -- my customizations ---------------------------------------------------------                                                                                                                    
+# Shortcuts to move / reorder windows meta key + h / l
+bind-key -n M-h swap-window -t -1 \; select-window -t -
+bind-key -n M-l swap-window -t +1 \; select-window -t +
+
 # -- shell ---------------------------------------------------------------------
  # Set the default shell to zsh                                                                                                                                                                      
  set -g default-shell /bin/zsh
